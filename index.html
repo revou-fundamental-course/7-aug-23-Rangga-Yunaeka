@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Luas Segitiga</title>
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+<div class="calculator">
+  <h1>Kalkulator Luas Segitiga</h1>
+  <img src="Rumus Luas Segitiga.png">
+  <div class="input-container">
+    <label for="alas">Alas: </label>
+    <input type="number" id="alas" placeholder="Masukkan alas">
+  </div>
+  <div class="input-container">
+    <label for="tinggi">Tinggi: </label>
+    <input type="number" id="tinggi" placeholder="Masukkan tinggi">
+  </div>
+  <button id="hitungBtn">Hitung Luas</button>
+  <div id="hasil"></div>
+</div>
+
+<footer>
+  <div class="container">
+    <h1>Kalkulator Keliling Segitiga</h1>
+    <img src="Rumus Keliling Segitiga.png">
+    <label for="sideA">Sisi A: </label>
+    <input type="number" id="sideA">
+    <br>
+    <label for="sideB">Sisi B: </label>
+    <input type="number" id="sideB">
+    <br>
+    <label for="sideC">Sisi C: </label>
+    <input type="number" id="sideC">
+    <br>
+    <button onclick="calculate()">Hitung</button>
+    <p>Keliling Segitiga: <span id="result">0</span></p>
+  </div>
+</footer>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
